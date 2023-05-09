@@ -51,7 +51,7 @@
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QLabel" name="calcular">
+    <widget class="QLabel" name="resultado">
      <property name="geometry">
       <rect>
        <x>85</x>
@@ -156,14 +156,14 @@
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_2">
         <item>
-         <widget class="QRadioButton" name="Sumar">
+         <widget class="QRadioButton" name="sumar">
           <property name="text">
            <string>Sumar</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="Restar">
+         <widget class="QRadioButton" name="restar">
           <property name="text">
            <string>Restar</string>
           </property>
@@ -173,7 +173,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="Multiplicar">
+         <widget class="QRadioButton" name="multiplicar">
           <property name="text">
            <string>Multiplicar</string>
           </property>
@@ -183,7 +183,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QRadioButton" name="Dividir">
+         <widget class="QRadioButton" name="dividir">
           <property name="text">
            <string>Dividir</string>
           </property>
@@ -194,7 +194,7 @@
       <item>
        <widget class="QPushButton" name="pushButton">
         <property name="text">
-         <string>PushButton</string>
+         <string>calcular</string>
         </property>
        </widget>
       </item>
