@@ -12,7 +12,7 @@ class principal(PyQT.QMainWindow):
         self.show()
 
         self.pushButton.clicked.connect(self.calcular)
-        self.actionSalir.triggered.connect(exit)
+        self.actionSalir.triggered.connect(exit) 
 
     def calcular(self):
         texto1=float(self.num1.text())
