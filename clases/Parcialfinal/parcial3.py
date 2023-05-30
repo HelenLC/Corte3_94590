@@ -23,6 +23,7 @@ class principal(PyQT.QMainWindow):
             if num1 % 2==0:
                 resul.append()
             
+            
             self.resultado.setText(str(texto1))
         elif self.dec2hex.isChecked()==True:
             self.resultado.setText(str(texto1))
